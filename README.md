@@ -182,17 +182,17 @@ docs/
 
 ## Phase 0 — Project Initialization
 
-- [ ] Repository Setup
+- [x] Repository Setup
 - [ ] Docker Compose
-- [ ] Go Project
+- [x] Go Project
 - [ ] Air
 - [ ] PostgreSQL
 - [ ] Redis
 - [ ] RabbitMQ
 - [ ] Makefile
-- [ ] Environment
+- [x] Environment
 - [ ] GitHub Actions
-- [ ] README
+- [~] README
 
 ---
 
@@ -393,7 +393,7 @@ Examples:
 
 | Phase | Status |
 |--------|--------|
-| Phase 0 | ⏳ Not Started |
+| Phase 0 | 🚧 In Progress |
 | Phase 1 | ⏳ Not Started |
 | Phase 2 | ⏳ Not Started |
 | Phase 3 | ⏳ Not Started |
