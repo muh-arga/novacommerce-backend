@@ -192,7 +192,7 @@ docs/
 - [ ] Makefile
 - [x] Environment
 - [ ] GitHub Actions
-- [~] README
+- [x] README
 
 ---
 
