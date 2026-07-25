@@ -1,6 +1,8 @@
 package app
 
 import (
+	"fmt"
+
 	"github.com/gin-gonic/gin"
 	"github.com/muh-arga/novacommerce-backend/configs"
 	"github.com/muh-arga/novacommerce-backend/internal/handler"
@@ -15,11 +17,10 @@ func New() (*Application, error) {
 	cfg, err := configs.LoadConfig()
 
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("load application config: %w", err)
 	}
 
-	healthHandler := handler.NewHealthHandler()
-
+	healthHandler := handler.NewHealthHandler(cfg)
 	router := NewRouter(healthHandler)
 
 	app := &Application{
