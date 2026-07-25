@@ -1,16 +1,16 @@
 package configs
 
 type Config struct {
-	App      AppConfig      `mapstructure:",squash"`
+	App      AppConfig      `mapstructure:"app"`
 	Database DatabaseConfig `mapstructure:",squash"`
 	Redis    RedisConfig    `mapstructure:",squash"`
 	RabbitMQ RabbitMQConfig `mapstructure:",squash"`
 }
 
 type AppConfig struct {
-	Name string `mapstructure:"APP_NAME"`
-	Port int    `mapstructure:"APP_PORT"`
-	Env  string `mapstructure:"APP_ENV"`
+	Name string `mapstructure:"name"`
+	Port int    `mapstructure:"port"`
+	Env  string `mapstructure:"env"`
 }
 
 type DatabaseConfig struct {

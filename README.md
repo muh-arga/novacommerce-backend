@@ -183,12 +183,10 @@ docs/
 ## Phase 0 — Project Initialization
 
 - [x] Repository Setup
+- [ ] Dockerfile
 - [ ] Docker Compose
 - [x] Go Project
 - [ ] Air
-- [ ] PostgreSQL
-- [ ] Redis
-- [ ] RabbitMQ
 - [ ] Makefile
 - [x] Environment
 - [ ] GitHub Actions
@@ -197,7 +195,9 @@ docs/
 ---
 
 ## Phase 1 — Database Design
-
+- [ ] PostgreSQL
+- [ ] Redis
+- [ ] RabbitMQ
 - [ ] ERD
 - [ ] Migration
 - [ ] Seed
