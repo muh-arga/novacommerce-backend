@@ -23,7 +23,7 @@ func (h *HealthHandler) Index(c *gin.Context) {
 		"status":      "ok",
 		"service":     h.config.App.Name,
 		"environment": h.config.App.Env,
-		"version":     "0.1.0",
+		"version":     "0.1.1",
 	}
 
 	response.Success(c, http.StatusOK, data)

@@ -184,9 +184,9 @@ docs/
 
 - [x] Repository Setup
 - [ ] Dockerfile
-- [ ] Docker Compose
+- [x] Docker Compose
 - [x] Go Project
-- [ ] Air
+- [x] Air
 - [ ] Makefile
 - [x] Environment
 - [ ] GitHub Actions

@@ -1,0 +1,29 @@
+#:schema https://json.schemastore.org/any.json
+
+env_files = [".env"]
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  cmd = "go build -o ./tmp/novacommerce-backend ./cmd/api"
+  bin = "./tmp/novacommerce-backend"
+  include_ext = ["go", "toml"]
+  exclude_dir = ["tmp", "vendor", "docs", ".git"]
+  exclude_file = []
+  exclude_regex = ["_test.go"]
+  delay = 500
+  stop_on_error = true
+  send_interrupt = true
+  kill_delay = "500ms"
+
+[log]
+  time = true
+
+[color]
+  main = "magneta"
+  watcher = "cyan"
+  build = "yellow"
+  runner = "green"
+
+[misc]
+  clean_on_exit = false
