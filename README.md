@@ -183,11 +183,11 @@ docs/
 ## Phase 0 — Project Initialization
 
 - [x] Repository Setup
-- [ ] Dockerfile
+- [x] Dockerfile
 - [x] Docker Compose
 - [x] Go Project
 - [x] Air
-- [ ] Makefile
+- [x] Makefile
 - [x] Environment
 - [ ] GitHub Actions
 - [x] README
